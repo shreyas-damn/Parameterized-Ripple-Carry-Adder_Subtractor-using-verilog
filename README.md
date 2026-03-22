@@ -38,4 +38,8 @@ It can perform both **addition** and **subtraction** using a single design with 
 
 ### Addition (`cin = 0`)
 - `b_inverse = b`
-- Operation:  
+
+  ### Subtraction (`cin = 1`)
+- `b` is inverted using XOR:
+```verilog
+b_inverse = b ^ {width{1}}
