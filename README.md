@@ -41,7 +41,17 @@ It can perform both **addition** and **subtraction** using a single design with 
 
   ### Subtraction (`cin = 1`)
 - `b` is inverted using XOR:
--`b_inverse = b ^ {width{1}}`
+- `b_inverse = b ^ {width{1}}`
 
 ---
+
+### Verification
+
+<img width="364" height="173" alt="Screenshot 2026-03-21 at 9 24 31 PM" src="https://github.com/user-attachments/assets/bfb7472e-1305-498b-9517-884fd24230ee" />
+
+### GTKwave Waveform
+
+<img width="2660" height="802" alt="image" src="https://github.com/user-attachments/assets/560051d2-860e-4f33-848b-5b87b69e5f6c" />
+
+
 
