@@ -53,5 +53,9 @@ It can perform both **addition** and **subtraction** using a single design with 
 
 <img width="2660" height="802" alt="image" src="https://github.com/user-attachments/assets/560051d2-860e-4f33-848b-5b87b69e5f6c" />
 
+### Xininx Vivado Schematic
+
+<img width="532" height="641" alt="schematic" src="https://github.com/user-attachments/assets/7facc2fb-affa-4104-9c02-54890a47e88f" />
+
 
 
