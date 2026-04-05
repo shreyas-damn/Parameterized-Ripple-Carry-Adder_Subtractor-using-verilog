@@ -7,9 +7,9 @@ module p_as #(parameter width = 16)(
 );
 
 wire [width:0]carry;                //carry is width + 1 bits wide as it includes cin
-assign carry[0] = cin;
+assign carry[0] = cin;              //assigning first carry as cin
 
-wire [width-1:0]b_inverse;
+wire [width-1:0]b_inverse;          
 assign b_inverse = b ^ {width{cin}}; //{width{cin}} produces width bits of cin, hence every bit of b is XORed with cin
 
 genvar i;
